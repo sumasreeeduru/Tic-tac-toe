@@ -1,0 +1,25 @@
+#game-box {
+  display: flex;
+  flex-direction: column;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+}
+
+.col {
+  width: 64px;
+  height: 64px;
+  border: 1px solid black;
+}
+
+#score-box{
+  display: flex;
+  flex-direction: column;
+}
+.col1 {
+  width: 80px;
+  height: 32px;
+  border: 2px solid rgb(15, 15, 15);
+}
